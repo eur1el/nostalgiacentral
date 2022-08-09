@@ -33,9 +33,6 @@ header {
 	color: #fff;
 	padding: 35px 100px 0;
 }
-header h2 span {
-	color: #bf0a30;
-}
 header ul.nav {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -157,7 +154,7 @@ ul.about-content {
 	margin-bottom: 5%;
 }
 .section-title span {
-	color: #bf0a30;
+	color: rgb(0, 26, 255);
 }
 .about-right h2 {
 	margin-bottom: 3%;
@@ -271,7 +268,7 @@ ul.contact-content {
 }
 .contact-content li i {
 	font-size: 50px;
-	color: #bf0a30;
+	color: #0a6ebf;
 	margin-bottom: 25px;
 }
 .contact-content li p {
@@ -356,4 +353,9 @@ ul.contact-content {
   /* hover */
   .image-item:hover .overlay {
 	transform: scale(1);
+  }
+  .information{
+	height: 10vh;
+	width: 10vw;
+
   }

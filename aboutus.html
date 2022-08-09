@@ -20,3 +20,74 @@
 		</ul>
 	</header>
 </div>
+
+<style>
+	.carousel-item{
+		height:32rem;
+		background: #777;
+		color:white;
+		position:relative;
+	}
+	.container{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding-bottom:50px;
+	}
+</style>
+<div id ="myCarousel" class="carousel slide"
+data-bs-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-bs-target="#myCarousel"
+		 data-bs-slide-to="0" class="active"></li>
+		<li data-bs-target="#myCarousel"
+		 data-bs-slide-to="1"></li>
+		<li>
+		<li data-bs-target="#myCarousel"
+		 data-bs-slide-to="2"></li>
+		<li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active"
+		style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/DSCN1757.JPG);">  
+		<div class="container">
+			<h1>Nostalgia Central</h1>
+			<a href="gallery.html" class="btn btn-lg btn-primary">
+			Gallery
+			</a>
+		</div>
+		</div>
+		<div class="carousel-item"
+		style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/DSCN1757.JPG);">  
+	<div class="container">
+		<h1>Nostalgia Central</h1>
+		<a href="gallery.html" class="btn btn-lg btn-primary">
+		Gallery
+		</a>
+	</div>
+	 	</div>
+		 <div class="carousel-item"
+			style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/DSCN1757.JPG);">  
+			<div class="container">
+				<h1>Nostalgia Central</h1>
+				<a href="gallery.html" class="btn btn-lg btn-primary">
+				Gallery
+				</a>
+			</div>
+				 </div>
+	</div>
+	<a href="#myCarousel"
+	class="carousel-control-prev" role="button"
+	data-slide="prev">
+		<span class="sr-only">Previous</span>
+		<span class="carousel-control-prev-icon"
+		aria-hidden="true"></span>
+	</a>
+	<a href="#myCarousel"
+	class="carousel-control-next" role="button"data-slide="next">
+		<span class="sr-only">Next</span>
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	</a>
+</div>
+</section>

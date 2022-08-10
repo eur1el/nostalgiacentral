@@ -1,19 +1,19 @@
 
 <!doctype html>
-<meta charset="utf-8">
 <html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Links to stylesheet and thirdparty resources such as bootstrap, fontawesome, javascript.-->
 	<link href="style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <head>
-  </head>
+  <!--Title For website-->
   <title>Nostalgia Central</title>
   <body>
 <header>
-		<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>
+	<!---Navigation Bar-->
 		<ul class="nav">
 			<li><a href="index.html">Index</a></li>
 			<li><a href="gallery.html">Gallery</a></li>
@@ -21,7 +21,7 @@
             <li><a href="contactus.html">Contact us</a></li>
 		</ul>
 	</header>
-</div>
+	<!--Created Carousel Function-->
 <div id ="myCarousel" class="carousel slide"
 data-bs-ride="carousel">
 	<ol class="carousel-indicators">
@@ -35,34 +35,41 @@ data-bs-ride="carousel">
 		<li>
 		</ol>
 		<div class="carousel-inner">
+			<!--Inserted image as a carousel item-->
 			<div class="carousel-item active"
-			style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blue.png);">  
+			style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blue.png);">
+			<!--Created button that allows user to go to next page-->
 			<div class="container">
 				<h1>Nostalgia Central</h1>
-				<a href="index.html" class="btn btn-lg btn-primary">
-					Index 
+				<a href="aboutus.html" class="btn btn-lg btn-primary">
+					About Us
 				</a>
 			</div>
 			</div>
+			<!--Inserted image as a carousel item-->
 			<div class="carousel-item"
 			style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blue2.png);">  
+			<!--Created button that allows user to go to next page-->
 		<div class="container">
 			<h1>Nostalgia Central</h1>
-			<a href="index.html" class="btn btn-lg btn-primary">
-				Index 
+			<a href="aboutus.html" class="btn btn-lg btn-primary">
+				About Us
 			</a>
 		</div>
 			 </div>
+			 `<!--Inserted image as a carousel item-->
 			 <div class="carousel-item"
 				style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blue3.jpg);">  
+			 <!--Created button that allows user to go to next page-->
 				<div class="container">
 					<h1>Nostalgia Central</h1>
-					<a href="index.html" class="btn btn-lg btn-primary">
-					Index 
+					<a href="aboutus.html" class="btn btn-lg btn-primary">
+					About Us
 					</a>
 				</div>
 					 </div>
 	</div>
+	<!--Created Previous button for carousel-->
 	<a href="#myCarousel"
 	class="carousel-control-prev" role="button"
 	data-bs-slide="prev">
@@ -70,65 +77,70 @@ data-bs-ride="carousel">
 		<span class="carousel-control-prev-icon"
 		aria-hidden="true"></span>
 	</a>
+	<!--Created Next button for carousel-->
 	<a href="#myCarousel"
-	class="carousel-control-next" role="button"data-bs-slide="next">
+	class="carousel-control-next" role="button" data-bs-slide="next">
 		<span class="sr-only">Next</span>
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 	</a>
 </div>
-		</div>
-	</section>
+	<!--Creating Section "service-area"-->
 	<section class="services-area" id="services">
-		<h3 class="section-title">Booking <span> Services</span></h3>
+	<!--Creating Title for service area-->
+		<h3 class="section-title">Contact and <span> Services</span></h3>
+	<!--Inputting Photos and information for service area under service content/-->
 		<ul class="services-content">
 			<li>
-				<img  src="images/ATEED_harbourbridge_vectorlights-1024x576.jpg">
+				<!--Created information and typed information-->
+				<img  src="images/ATEED_harbourbridge_vectorlights-1024x576.jpg" alt="">
 				<h4>Photography</h4>
 				<p>We offer Photography sessions for $25 per session, prices can range depending on certain situations.</p>
 			</li>
 			<li>
-				<img  src="images/vfx.jpg">
+				<!--Created information and typed information-->
+				<img  src="images/vfx.jpg" alt="">
 				<h4>VFX</h4>
 				<p>We offer VFX Services for 3d effects or animations, get in contact for specific price. </p>
 			</li>
 			<li>
-				<img alt="" src="images/premierepro.png">
+				<!--Created information and typed information-->
+				<img src="images/premierepro.png" alt="">
 				<h4>Edits</h4>
 				<p>We offer to edit a collage of photos and videos depending on the users wants</p>
 			</li>
-		</ul>
-	</section>
-</section>
-<section class="services-area" id="services">
-	<h3 class="section-title">Contact <span> Us</span></h3>
-	<ul class="services-content">
+			<br>
 		<li>
-			<img  src="images/flatbush.jpg">
+			<!--Created information and typed information-->
+			<img  src="images/flatbush.jpg" alt="">
 			<h4>Location</h4>
 			<p>Auckland-Flatbush, NewZealand.</p>
 		</li>
 		<li>
-			<img src="images/photo-1521790361543-f645cf042ec4.jpeg">
+			<!--Created information and typed information-->
+			<img src="images/photo-1521790361543-f645cf042ec4.jpeg" alt="">
 			<h4>Contact Website</h4>
 			<p>nostalgiawebsitecontact.com.</p>
 		</li>
 		<li>
-			<img  src="images/email.jpg">
+			<!--Created information and typed information-->
+			<img  src="images/email.jpg" alt="">
 			<h4>Email</h4>
 			<p>nostalgia@gmail.com</p>
 		</li>
 	</ul>
 	</section>
-</section>
+<!---Created Footer-->
 <footer>
+<!--Created Social Media Icons in a row in the footer are-->
 	<div class="col-sm-12 col-lg-4">
 	<a href="#" class="fa fa-youtube"></a>
 	<a href="#" class="fa fa-instagram"></a>
 	<a href="#" class="fa fa-twitter"></a>
-	<p>Nostalgia Central</p> 
+	<p>Nostalgia Central</p>
+	</div>
 </footer>
 
-
+<!--Created Button that allows user to go to the top of the page-->
 <a href="#" class="to-top">
     <i class="fas fa-chevron-up"></i>
   </a>

@@ -13,7 +13,7 @@ ul, ul.nav {
 	list-style: none;
 }
 a {
-	text-decoration: none;	
+	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
 }
@@ -45,7 +45,6 @@ header ul.nav {
 }
 header ul.nav li {
 	margin: 0 15px;
-	color:white
 }
 header ul.nav li:first-child {
 	margin-left: 0;
@@ -263,7 +262,6 @@ ul.services-content {
 	}
 }
   .image-gallery {
-	/* Mobile first */
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
